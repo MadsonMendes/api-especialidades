@@ -60,7 +60,13 @@ export default function Home() {
           </ReactSyntaxHighlighter>
         </section>
         <p className="text-slate-600">
-          Feito por Madson // <a className="text-slate-400">Source</a>
+          Feito por Madson //{" "}
+          <a
+            href={"https://github.com/MadsonMendes/api-especialidades"}
+            className="text-slate-400"
+          >
+            Source
+          </a>
         </p>
       </main>
     </>
